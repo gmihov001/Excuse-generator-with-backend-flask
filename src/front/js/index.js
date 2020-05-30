@@ -10,5 +10,5 @@ window.onload = async function() {
     "https://3000-a1ac14a2-1bbc-4ae5-85a4-8773533b8876.ws-us02.gitpod.io/api/excuse"
   );
   let response_object = await response.json();
-  document.querySelector(".alert").innerHTML = response_object.excuse;
+  document.querySelector(".alert").innerHTML = response_object;
 };
